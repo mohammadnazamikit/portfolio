@@ -12,7 +12,7 @@ class Sidebar extends Component {
           {" "}
           Nano tech{" "}
         </div>
-        <div style={{ color: "darkblue", fontWeight: "bold" }}>
+        <div style={{ color: "darkblue", fontWeight: "bold" }} className="">
           {" "}
           full stack developer{" "}
         </div>
@@ -28,12 +28,7 @@ class Sidebar extends Component {
 
         <img src={logo} />
         <p style={{ color: "darkblue", fontWeight: "bold" }} className="gmail">
-          <a
-            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftvBffjPmxWxvfHWRHWnhTbpQgPxBxvkcnPpFpFqbhrXMCHXSJTsCXCVLsQzgRcVLpnPL"
-            rel="opener noreferrer"
-            target="_blank"
-            className="fa fa-envelope"
-          ></a>{" "}
+          {" "}
           mohammdtaliq@gmail.com{" "}
         </p>
 
