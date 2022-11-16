@@ -74,7 +74,7 @@ ul {
   list-style: none;
 }
 .h1_links:hover {
-  color: #000;
+  color: white;
 }
 /*//////////////media ////////////////////*/
 @media (max-width: 980px) {

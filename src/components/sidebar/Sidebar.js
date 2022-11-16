@@ -8,18 +8,15 @@ class Sidebar extends Component {
   render() {
     return (
       <div className="sidebar">
-        <div
-          style={{ color: "darkblue", fontWeight: "bold" }}
-          className="tagtop"
-        >
+        <div style={{ color: "darkblue" }} className="tagtop">
           {" "}
           Nano tech{" "}
         </div>
-        <div style={{ color: "darkblue", fontWeight: "bold" }} className="">
+        <div style={{ color: "darkblue", fontWeight: "bold" }}>
           {" "}
           full stack developer{" "}
         </div>
-        <div style={{ color: "darkblue", fontWeight: "bold" }} className="">
+        <div style={{ color: "darkblue" }} className="">
           {" "}
           # coding{" "}
         </div>
@@ -30,14 +27,14 @@ class Sidebar extends Component {
         </h1>
 
         <img src={logo} />
-        <p style={{ color: "black", fontWeight: "bold" }} className="gmail">
+        <p style={{ color: "darkblue", fontWeight: "bold" }} className="gmail">
           <a
             href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftvBffjPmxWxvfHWRHWnhTbpQgPxBxvkcnPpFpFqbhrXMCHXSJTsCXCVLsQzgRcVLpnPL"
             rel="opener noreferrer"
             target="_blank"
             className="fa fa-envelope"
           ></a>{" "}
-          mittalsam98@gmail.com{" "}
+          mohammdtaliq@gmail.com{" "}
         </p>
 
         <ul className="sidebar-nav">
@@ -56,7 +53,6 @@ class Sidebar extends Component {
               Interest
             </Link>
           </li>
-          {/* <li className="sidebar-nav-items"><a href="http://www.bloggingpeek.com" target="_blank" rel="opener noreferrer" className="links"> Blog<FiExternalLink/></a></li> */}
         </ul>
       </div>
     );
